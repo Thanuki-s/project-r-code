@@ -182,3 +182,37 @@ model_results <- data.frame(
 model_results
 
 
+
+#7 importnant features 
+####################################
+
+varImpPlot(
+  rf_model,
+  main = "Random Forest - Variable Importance"
+)
+
+
+
+
+# Class distribution
+loan_clean %>%
+  count(loan_status) %>%
+  ggplot(aes(x = loan_status, y = n)) +
+  geom_col() +
+  labs(
+    title = "Distribution of Loan Status",
+    x = "Loan Status",
+    y = "Count"
+  )
+
+loan_clean %>%
+  ggplot(aes(x = income_annum, fill = loan_status)) +
+  geom_density(alpha = 0.4) +
+  labs(
+    title = "Income Distribution by Loan Status",
+    x = "Annual Income",
+    y = "Density"
+  )
+
+
+
