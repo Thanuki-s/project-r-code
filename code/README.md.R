@@ -1,11 +1,11 @@
 # Loan Approval Prediction (Machine Learning in R)
 
-This project builds machine learning models to predict whether a loan application will be **Approved** or **Rejected** based on applicant information, loan details, and asset values.  
-It includes end-to-end data cleaning, exploratory analysis, model building, evaluation and visualisation using **R**.
+This project builds machine learning models to predict whether a loan application will be Approved or Rejected based on applicant information, loan details, and asset values.  
+It includes end-to-end data cleaning, exploratory analysis, model building, evaluation and visualisation using R.
 
 ---
   
-  ## 📌 Project Overview
+  ## Project Overview
   
   Financial institutions receive thousands of loan applications each year.  
 This project demonstrates how machine learning can support faster and more consistent decision-making.
@@ -88,8 +88,7 @@ Top important features:
   
   ## Results Summary
   
-  | Model                | Accuracy | F1 Score | AUC   |
-  |----------------------|----------|----------|-------|
+  | Model                | Accuracy | F1 Score | AUC |
   | Logistic Regression  | 0.9077   | 0.9266   | 0.9638|
   | Random Forest        | 0.9804   | 0.9843   | 0.9964|
   
